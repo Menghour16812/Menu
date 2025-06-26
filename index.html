@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="Dom4.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row pt-5">
+            <div class="col-11 d-flex justify-content-end">
+                <button id="btnAdd" class="col-1 p-1 rounded-2 bg-primary">Add Item..</button>
+            </div>
+            <div class="col-12">
+                <div class="row  d-flex justify-content-center">
+                    <div class="col-10 mt-3">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th class="col-1">ID</th>
+                                    <th class="col-2">Name</th>
+                                    <th class="col-2">Price</th>
+                                    <th class="col-2">Quantity</th>
+                                    <th class="col-2">Photo</th>
+                                    <th class="col-3">Action</th>
+                                </tr>
+                            </thead>
+                            <tbody id="Table_Value" style="font-size: 20px;">
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="finput" class="row h-100">
+            <div class="col-5  rounded-3 px-4 ">
+                <form action="">
+                    <div class="row mt-4 d-flex justify-content-center">
+                        <div class="col-3 d-flex align-items-center justify-content-center">
+                            <label for=""> ID :</label>
+                        </div>
+                        <div class="col-9">
+                            <input type="text" id="id" class="form-control" placeholder="Input ID....">
+                        </div>
+
+                        <div class="col-3 d-flex align-items-center justify-content-center mt-4">
+                            <label for=""> Name :</label>
+                        </div>
+                        <div class="col-9 mt-4">
+                            <input type="text" id="name" class="form-control" placeholder="Input Name....">
+                        </div>
+
+                        <div class="col-3 d-flex align-items-center justify-content-center mt-4">
+                            <label for=""> Price :</label>
+                        </div>
+                        <div class="col-9 mt-4">
+                            <input type="text" id="price" class="form-control" placeholder="Input Price....">
+                        </div>
+
+                        <div class="col-3 d-flex align-items-center justify-content-center mt-4">
+                            <label for=""> Quantity :</label>
+                        </div>
+                        <div class="col-9 mt-4">
+                            <input type="text" id="quantity" class="form-control" placeholder="Input Quantity....">
+                        </div>
+
+                        <div class="col-3 d-flex align-items-center justify-content-center mt-4">
+                            <label for=""> Add File/Photo :</label>
+                        </div>
+                        <div class="col-9 mt-4">
+                            <input type="file" id="photo" class="form-control">
+                        </div>
+                        <Button class="col-2 mt-4 mb-4 p-2 rounded-3 " id="save"
+                            style="background-color: rgb(32, 186, 32);">Save </Button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="04.js"></script>
+
+</html>
