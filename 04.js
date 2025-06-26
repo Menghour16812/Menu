@@ -63,7 +63,7 @@ Btn.addEventListener('click', function (e) {
                 <tr> 
                     <td>${data.ID}</td>
                     <td>${data.NAME}</td>
-                    <td>${data.PRICE}</td>
+                    <td>$ ${data.PRICE}</td>
                     <td>${data.QUANTITY}</td>  
                     <td><img src="${imgSrc}" style="width: 50px; height: 50px;"></td>
                     <td>
@@ -81,7 +81,7 @@ Btn.addEventListener('click', function (e) {
             <tr> 
                 <td>${data.ID}</td>
                 <td>${data.NAME}</td>
-                <td>${data.PRICE}</td>
+                <td>$ ${data.PRICE}</td>
                 <td>${data.QUANTITY}</td>  
                 <td>No Image</td>
                 <td>
